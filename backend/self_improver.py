@@ -1,10 +1,8 @@
 """
-SkillOpt-style self-improvement loop for RAG agent.
+Self-improvement loop for RAG agent performance tracking.
 
-Inspired by microsoft/SkillOpt (B站量子位报道, 5k+ stars):
-- Skills should measure themselves and improve over time
-- Track query quality, retrieval accuracy, and answer helpfulness
-- Use feedback to adjust retrieval parameters
+Tracks query quality, retrieval accuracy, and answer helpfulness.
+Uses feedback to adjust retrieval parameters over time.
 """
 from typing import Dict, List, Optional
 from dataclasses import dataclass, field
