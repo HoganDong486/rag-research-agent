@@ -70,3 +70,13 @@ curl -X POST http://localhost:8000/agent/query \
 - **Backend**: Python · FastAPI · ChromaDB · OpenAI API
 - **Vector Store**: ChromaDB with cosine similarity
 - **Agent**: Multi-query planner + synthesis pipeline
+
+---
+
+### Part of the Hogan Dong Agent Stack
+
+This project is the **knowledge layer** in a multi-agent platform:
+
+> **[AgentForge](https://github.com/HoganDong486/agentforge)** can orchestrate this RAG pipeline as a specialized research agent in any workflow.
+>
+> Also: [Browser MCP](https://github.com/HoganDong486/opencode-browser-mcp) · [MCP Toolkit](https://github.com/HoganDong486/mcp-server-toolkit) · [Agent Playground](https://github.com/HoganDong486/multi-agent-playground)
